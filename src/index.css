@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.blink { 
+  animation: blinking;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+}
+@keyframes blinking {
+  from { 
+    display: none;
+  }
+  to { 
+    display: block;
+  }
+  
+}

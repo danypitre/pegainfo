@@ -1,38 +1,546 @@
-.App {
-  text-align: center;
-}
+ * { 
+   margin: 0;
+ }
+ 
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+ body { 
+  background-image: url(./art/backtitle.jpg);
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+ }
+
+ .flexWhole{
+   display: flex;
+   width: 100vw;
+   height: 50vh;
+   
+ }
+ .bgTitle { 
+   z-index: -1;
+   object-fit: contain;
+   width: 100%;
+   width: 100%;
+   overflow: hidden;
+   position: absolute;
+ }
+
+ .title{ 
+   color:white;
+
+ }
+
+ .splitbox { 
+   font-size: 150%;
+   width: 100vw;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: row;
+ }
+
+
+
+ @keyframes startLeft {
+
+  from { 
+    opacity: 0;
+    padding-right: 40%;
+  } to {
+    opacity: 1;
+    padding-right: 20%;
   }
+   
+ }
+
+
+ 
+ @keyframes startRight {
+
+  from { 
+    opacity: 0;
+    padding-left: 40%;
+  } to {
+    opacity: 1;
+    padding-left: 20%;
+  }
+   
+ }
+
+ .startleft { 
+   animation: startLeft 3s;
+   animation-fill-mode: forwards;
+ }
+
+ .startright { 
+  animation: startLeft 3s;
+  animation-fill-mode: forwards;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+@keyframes fadeIn {
+
+  from { 
+    opacity: 0;
+    top:-50px;
+
+  } to { 
+    opacity: 1;
+    top:0px;
+  }
+  
+}
+
+
+.fade-in { 
+
+animation: fadeIn 2s;
+animation-fill-mode: forwards
+}
+
+
+.keyboard { 
+  width: 100vw;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  flex-direction: column;
+  opacity: 0;
+}
+
+.f-lines { 
+  width: 60vw;
+  height: 80px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+}
+
+.esc { 
+margin-right: 70px;
+display: flex;
+justify-content: center;
+align-items: flex-start;
+flex-direction: column;
+padding-left: 20px;
+width: 98px;
+height: 50px;
+color:white;
+background: linear-gradient(0deg, #000000, #000000), linear-gradient(0deg, #000000, #000000), linear-gradient(0deg, #000000, #000000), #000000;
+border-radius: 6px;
+}
+
+.fs { 
+
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 20px;
+    width: 98px;
+    height: 50px;
+    color:white;
+    background: linear-gradient(0deg, #000000, #000000), linear-gradient(0deg, #000000, #000000), linear-gradient(0deg, #000000, #000000), #000000;
+    border-radius: 6px;
+    
+}
+
+.anchors { 
+
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-left: 20px;
+  width: 140px;
+  height: 70px;
+  color:white;
+  background: linear-gradient(0deg, #000000, #000000), linear-gradient(0deg, #000000, #000000), linear-gradient(0deg, #000000, #000000), #000000;
+  border-radius: 6px;
+  transition: all 0.3s;
+  
+}
+.anchors:hover{ 
+  width: 145px;
+  height: 55px;
+  cursor: pointer;
+
+}
+.end { 
+  background: linear-gradient(#000000, #00000000);
+}
+@keyframes pressed {
+  from { 
+    background: white;
+  } to { 
+    background: linear-gradient(0deg, #000000, #000000), linear-gradient(0deg, #000000, #000000), linear-gradient(0deg, #000000, #000000), #000000;
+  }
+  
+}
+.key-pressed { 
+  animation: pressed 0.6s;
+  animation-direction: alternate;
+
+}
+
+
+.services-box { 
+  margin-top: 60px;
+  width: 80;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding:5vw;
+}
+
+.service { 
+
+width: 25vw;
+height: 700px;
+margin: 50px;
+background: rgba(0, 0, 0, 0.9);
+display: flex;
+justify-content: flex-start;
+padding: 3%;
+align-items: center;
+flex-direction: column;
+overflow: scroll;
+
+
+}
+.flxRow { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.white{
+  width: 80%;
   color: white;
+  font-size: 110%;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+.blink { 
+  animation: blinking;
+  animation-duration: 0.3s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+@keyframes blinking {
+  from { 
+    opacity: 0;
+  }
+  to { 
+    opacity:1;
+  }
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.hidden { 
+  display: none !important;
+}
+
+
+.line { 
+  border-bottom: 1px solid white;
+}
+
+.service-infos { 
+  margin-top:20px;
+  color: rgb(66, 65, 65);
+  transition: all 0.2s;
+}
+.service-infos:hover { 
+  color:rgb(135, 133, 133);
+  cursor: pointer;
+}
+
+.service-infos-clicked { 
+  color:white;
+}
+
+
+.service-infos > ul >li { 
+
+  margin-bottom: 5%;
+  font-size: 150%;
+  
+
+
+}
+
+.support { 
+  width: 95vw;
+  padding: 2.5vw;
+  min-height: 500px;
+  margin-top: 60px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+.support > div { 
+  color: white;
+  font-size: 150%;
+}
+.anyDesk { 
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  transition: all 0.3s;
+}
+.anyLogo { 
+  width:20%;
+
+
+}
+.anyDesk:hover{
+  cursor: pointer;
+}
+
+.historique { 
+  width: 100vw;
+  min-height: 600px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  margin-top:60px;
+
+}
+.window { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+
+
+
+
+@keyframes MoveABit {
+  from{ 
+    margin-top: 20px;
   }
-  to {
-    transform: rotate(360deg);
+  to{
+    margin-top: 0px;
   }
+  
+}
+
+.floating { 
+  animation: MoveABit;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.select-year { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 70vw;
+  height: 80px;
+  background-color: #000000;
+}
+
+
+.select-year > div { 
+  width: 100%;
+  height: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: all 0.2s;
+}
+.select-year > div:hover{ 
+  background-color: white;
+  color:black;
+  cursor: pointer;
+}
+
+.contact { 
+  width: 100vw;
+  min-height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+
+
+.contact-split { 
+  width: 30vw;
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  color: white;
+  background:#000000ad;
+}
+.contact-split > div { 
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.email { 
+  color:white;
+  transition: all 0.2s;
+}
+
+.email:hover{ 
+  color:gray !important;
+  cursor: pointer !important;
+}
+
+.footer { 
+  width: 100vw;
+  height: 100px;
+  background-color: #00000089;
+  margin-top: 60px;
+  color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.partenaires-box { 
+  width: 70vw;
+  min-height: 200px;
+  margin-top:60px;
+}
+.partenaires-box > div{
+  font-size: 150%;
+  
+}
+
+.partenaires-logos  { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap:wrap;
+  width: 70vw;
+  
+}
+.partenaire { 
+  width: 250px;
+  height: 250px;
+ 
+  object-fit: contain;
+  margin:20px;
+  background-color: white;
+
+}
+
+
+/* MOBILE CLASSES */
+
+
+.navbar { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 100px;
+  width: 100vw;
+  margin-bottom: 50px;
+}
+.logo-nav { 
+  height: 90px;
+}
+
+.menu { 
+  background-color: #000000;
+  height: 100vh;
+  width: 100vw;
+  z-index: 10;
+  position: fixed;
+  top:-200%;
+
+}
+
+.dropdown{ 
+  animation: drop;
+  animation-duration: .5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes drop {
+  from { 
+    top:-200%
+  }
+  to { 
+    top:0;
+  }
+}
+
+.menu-list { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.menu-list > li { 
+  color:white;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 150%;
+}
+.services-mobile { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  min-height: 600px ;
+}
+
+.single-service { 
+  width: 90vw;
+  min-height: 200px;
+  color:white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  border-bottom: 1px solid white;
+  margin-bottom: 10px;
+}
+.service-list { 
+  margin-top:10px;
+  list-style: none;
+
+}
+.service-list > li { 
+  margin-bottom: 10px;
+  text-align: start;
+}
+.contact-mobile { 
+  color: white;
+  padding: 10%;
+}
+.contact-mobile > div { 
+  margin-bottom: 15px;
+  
+  text-align: start;
 }
