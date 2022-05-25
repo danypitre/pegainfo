@@ -13,14 +13,12 @@ function App() {
 
 <div className='App'>
   
-  <BrowserRouter  basename={process.env.PUBLIC_URL}>
 
     <Routes> 
         <Route path='/' element={<HomePage/>} />
         <Route path='/mobile' element={<Mobile/>} />
 
     </Routes>
-    </BrowserRouter>
   
 </div>
 
