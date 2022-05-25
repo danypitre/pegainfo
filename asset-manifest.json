@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/pegainfo/static/css/main.b5dd13dd.css",
-    "main.js": "/pegainfo/static/js/main.6aaebc54.js",
-    "static/js/787.ca45ffae.chunk.js": "/pegainfo/static/js/787.ca45ffae.chunk.js",
-    "static/media/backtitle.jpg": "/pegainfo/static/media/backtitle.309ef3e441bb095152ed.jpg",
-    "static/media/pierre.png": "/pegainfo/static/media/pierre.ca6523e329a02716a18b.png",
-    "static/media/ibm.jpeg": "/pegainfo/static/media/ibm.9a301d7876a4e03e129c.jpeg",
-    "static/media/fujtsu.png": "/pegainfo/static/media/fujtsu.64e07cad9384530897b9.png",
-    "static/media/geotronics.png": "/pegainfo/static/media/geotronics.31fafa3edb73a4c15856.png",
-    "static/media/WIN10.png": "/pegainfo/static/media/WIN10.b5c62d7eba26460fd374.png",
-    "static/media/WIN95.png": "/pegainfo/static/media/WIN95.8096e034176c7a30a9c7.png",
-    "static/media/intel.png": "/pegainfo/static/media/intel.06f86d1bfed0947308c4.png",
-    "static/media/xerox.png": "/pegainfo/static/media/xerox.ea47abde66d7828814d1.png",
-    "static/media/inso.webp": "/pegainfo/static/media/inso.4c4c96b6d39e80a4d81d.webp",
-    "index.html": "/pegainfo/index.html",
-    "main.b5dd13dd.css.map": "/pegainfo/static/css/main.b5dd13dd.css.map",
-    "main.6aaebc54.js.map": "/pegainfo/static/js/main.6aaebc54.js.map",
-    "787.ca45ffae.chunk.js.map": "/pegainfo/static/js/787.ca45ffae.chunk.js.map"
+    "main.css": "./static/css/main.96de176c.css",
+    "main.js": "./static/js/main.63bbba1a.js",
+    "static/js/787.ca45ffae.chunk.js": "./static/js/787.ca45ffae.chunk.js",
+    "static/media/backtitle.jpg": "./static/media/backtitle.309ef3e441bb095152ed.jpg",
+    "static/media/pierre.png": "./static/media/pierre.ca6523e329a02716a18b.png",
+    "static/media/ibm.jpeg": "./static/media/ibm.9a301d7876a4e03e129c.jpeg",
+    "static/media/fujtsu.png": "./static/media/fujtsu.64e07cad9384530897b9.png",
+    "static/media/geotronics.png": "./static/media/geotronics.31fafa3edb73a4c15856.png",
+    "static/media/WIN10.png": "./static/media/WIN10.b5c62d7eba26460fd374.png",
+    "static/media/WIN95.png": "./static/media/WIN95.8096e034176c7a30a9c7.png",
+    "static/media/intel.png": "./static/media/intel.06f86d1bfed0947308c4.png",
+    "static/media/xerox.png": "./static/media/xerox.ea47abde66d7828814d1.png",
+    "static/media/inso.webp": "./static/media/inso.4c4c96b6d39e80a4d81d.webp",
+    "index.html": "./index.html",
+    "main.96de176c.css.map": "./static/css/main.96de176c.css.map",
+    "main.63bbba1a.js.map": "./static/js/main.63bbba1a.js.map",
+    "787.ca45ffae.chunk.js.map": "./static/js/787.ca45ffae.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b5dd13dd.css",
-    "static/js/main.6aaebc54.js"
+    "static/css/main.96de176c.css",
+    "static/js/main.63bbba1a.js"
   ]
 }
