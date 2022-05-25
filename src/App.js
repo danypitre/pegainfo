@@ -12,14 +12,16 @@ function App() {
   return (
 
 <div className='App'>
-  
 
+  <HomePage/>
+  
+{/* 
     <Routes> 
         <Route path='/' element={<HomePage/>} />
         <Route path='/mobile' element={<Mobile/>} />
 
     </Routes>
-  
+   */}
 </div>
 
       
