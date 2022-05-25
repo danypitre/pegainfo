@@ -2,7 +2,7 @@ import { TitleBox } from './TitleBox';
 
 export const HomePage = () => { 
     if(window.screen.width < 600) { 
-        window.location.href = '/mobile'
+        window.location.href = '/pegainfo/mobile'
     }
     return(
        <div>
