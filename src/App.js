@@ -14,6 +14,8 @@ function App() {
 <div className='App'>
 
   <HomePage/>
+
+  <h1 className='title'>Cacacac</h1>
   
 {/* 
     <Routes> 
