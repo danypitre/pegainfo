@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e8c9a380.css",
+    "main.js": "/static/js/main.ee3d1501.js",
+    "static/js/787.ca45ffae.chunk.js": "/static/js/787.ca45ffae.chunk.js",
+    "static/media/backtitle.jpg": "/static/media/backtitle.309ef3e441bb095152ed.jpg",
+    "static/media/pierre.png": "/static/media/pierre.ca6523e329a02716a18b.png",
+    "static/media/ibm.jpeg": "/static/media/ibm.9a301d7876a4e03e129c.jpeg",
+    "static/media/fujtsu.png": "/static/media/fujtsu.64e07cad9384530897b9.png",
+    "static/media/geotronics.png": "/static/media/geotronics.31fafa3edb73a4c15856.png",
+    "static/media/WIN10.png": "/static/media/WIN10.b5c62d7eba26460fd374.png",
+    "static/media/WIN95.png": "/static/media/WIN95.8096e034176c7a30a9c7.png",
+    "static/media/intel.png": "/static/media/intel.06f86d1bfed0947308c4.png",
+    "static/media/xerox.png": "/static/media/xerox.ea47abde66d7828814d1.png",
+    "static/media/inso.webp": "/static/media/inso.4c4c96b6d39e80a4d81d.webp",
+    "index.html": "/index.html",
+    "main.e8c9a380.css.map": "/static/css/main.e8c9a380.css.map",
+    "main.ee3d1501.js.map": "/static/js/main.ee3d1501.js.map",
+    "787.ca45ffae.chunk.js.map": "/static/js/787.ca45ffae.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e8c9a380.css",
+    "static/js/main.ee3d1501.js"
+  ]
+}
