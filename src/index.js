@@ -8,7 +8,7 @@ import { BrowserRouter, HashRouter } from 'react-router-dom';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <HashRouter basemname={`/${process.env.PUBLIC_URL}`}><App /></HashRouter>
+    <BrowserRouter basemname={`/${process.env.PUBLIC_URL}`}><App /></BrowserRouter>
       
   </React.StrictMode>
 );
