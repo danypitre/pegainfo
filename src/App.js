@@ -13,17 +13,13 @@ function App() {
 
 <div className='App'>
 
-  <HomePage/>
 
-  <h1 className='title'>Cacacac</h1>
-  
-{/* 
     <Routes> 
         <Route path='/' element={<HomePage/>} />
         <Route path='/mobile' element={<Mobile/>} />
 
     </Routes>
-   */}
+   
 </div>
 
       
