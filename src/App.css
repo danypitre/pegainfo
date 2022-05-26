@@ -411,8 +411,7 @@ overflow: scroll;
 
 .footer { 
   width: 100vw;
-  height: 100px;
-  background-color: #00000089;
+  min-height: 100px;
   margin-top: 60px;
   color:white;
   display: flex;

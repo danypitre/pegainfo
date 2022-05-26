@@ -479,10 +479,10 @@ export const TitleBox = () => {
 
                 </div>
 
-                <div className='footer'>
+                <footer className='footer'>
                     2022 - Christophe Chouinard pour PeGa Informatique Inc.
                     
-                </div>
+                </footer>
         </div>
      );
 }
