@@ -16,8 +16,8 @@ function App() {
 
     <Routes> 
 
-        <Route path='/pegainfo' element={<HomePage/>} />
-        <Route path='/pegainfo/mobile' element={<Mobile/>} />
+        <Route path='/' element={<HomePage/>} />
+        <Route path='/mobile' element={<Mobile/>} />
 
     </Routes>
    
